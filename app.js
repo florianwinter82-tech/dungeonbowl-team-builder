@@ -7,7 +7,8 @@ function exportRosterPdf() {
    doc.setFontSize(20);
 
 doc.text(
-    teamName.value || "Unbenanntes Team",
+
+    teamName?.value || "Unbenanntes Team"
     14,
     20
 );
@@ -96,6 +97,7 @@ const teamName =
     document.getElementById(
         "teamName"
     );
+
 const budget = 700000;
 const rrCost = 100000;
 const apothecaryCost = 50000;
