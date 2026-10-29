@@ -4,66 +4,98 @@ function exportRosterPdf() {
 
     const doc = new jsPDF();
 
-    let y = 20;
+   doc.setFontSize(20);
 
-    doc.setFontSize(18);
+doc.text(
+    teamName.value || "Unbenanntes Team",
+    14,
+    20
+);
 
-    doc.text(
-        "DungeonBowl Team Roster",
-        20,
-        y
-    );
+doc.setFontSize(11);
 
-    y += 15;
+doc.text(
+    `Volk: ${teamSelect.value}`,
+    14,
+    35
+);
 
-    doc.setFontSize(12);
+doc.text(
+    `Teamwert: ${formatMoney(calculateTeamValue())}`,
+    90,
+    35
+);
 
-    doc.text(
-        "Team: " + teamSelect.value,
-        20,
-        y
-    );
+doc.text(
+    `Re-Rolls: ${rerolls}`,
+    14,
+    43
+);
 
-    y += 10;
+doc.text(
+    `Apotheker: ${apothecary ? "Ja" : "Nein"}`,
+    90,
+    43
+);
 
-    doc.text(
-        "Teamwert: " +
-        formatMoney(
-            calculateTeamValue()
-        ),
-        20,
-        y
-    );
+doc.setFontSize(12);
 
-    y += 15;
 
-    currentRoster.forEach(
-        (player, index) => {
+    const rows = currentRoster.map(player => [
 
-            doc.text(
-               `${player.number}. ${player.name || "(ohne Namen)"} - ${player.position}`,
-                20,
-                y
-            );
+        player.number || "",
+        player.name || "",
+        player.position || "",
 
-            y += 7;
+        player.ma || "",
+        player.st || "",
+        player.ag || "",
+        player.pa || "",
+        player.av || "",
 
-            if (y > 270) {
+        player.skills
+            ? player.skills.join(", ")
+            : ""
 
-                doc.addPage();
+    ]);
 
-                y = 20;
-            }
+    doc.autoTable({
 
+        startY: 55,
+
+        head: [[
+            "Nr",
+            "Name",
+            "Position",
+            "MA",
+            "ST",
+            "AG",
+            "PA",
+            "AV",
+            "Skills"
+        ]],
+
+        body: rows,
+
+        styles: {
+            fontSize: 8
         }
-    );
+
+    });
 
     doc.save(
         `${teamSelect.value}_Roster.pdf`
     );
+
 }
+
+
 console.log("APP START");
 alert("app.js geladen");
+const teamName =
+    document.getElementById(
+        "teamName"
+    );
 const budget = 700000;
 const rrCost = 100000;
 const apothecaryCost = 50000;
@@ -96,7 +128,7 @@ const groupRestrictions = {
             "Troll"            
         ]
     },
-    
+
     "Chaos Renegades": {
         max: 3,
         players: [
