@@ -14,6 +14,22 @@ body {
 }
 
 /* =========================
+   Teamname
+========================= */
+#teamName {
+    width: 100%;
+
+    padding: 8px;
+
+    background: #1a1a1a;
+    color: white;
+
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
+
+/* =========================
    Header
 ========================= */
 
