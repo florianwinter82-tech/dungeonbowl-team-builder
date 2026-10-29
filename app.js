@@ -87,8 +87,25 @@ const groupRestrictions = {
             "Chaos Troll",
             "Minotaur"
         ]
-    }
+    },
 
+    "Underworld Denizens": {
+        max: 1,
+        players: [
+            "Rat Ogre",
+            "Troll"            
+        ]
+    },
+    
+    "Chaos Renegades": {
+        max: 3,
+        players: [
+            "Chaos Ogre",
+            "Chaos Troll",
+            "Rat Ogre",
+            "Minotaur"            
+        ]
+    }
 };
 
 let currentRoster = [];

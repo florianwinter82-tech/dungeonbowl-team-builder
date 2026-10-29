@@ -10,7 +10,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge"]
         }
         ,
         {
@@ -22,7 +22,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Defensive", "Dodge"]
         }
         ,
         {
@@ -34,7 +34,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Hit and Run", "Jump up"]
         }
         ,
         {
@@ -46,7 +46,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "On the Ball", "Pass", "Safe Pass"]
         }
     ],
 
@@ -60,7 +60,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*", "Thick Skull"]
         }
         ,
         {
@@ -72,7 +72,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Brawler", "Grab"]
         }
         ,
         {
@@ -84,7 +84,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
         }
     ],
 
@@ -98,7 +98,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Wrestle"]
         }
         ,
         {
@@ -110,7 +110,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Dauntless", "Nerves of Steel", "Pass"]
         }
         ,
         {
@@ -122,7 +122,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Catch", "Dauntless", "Nerves of Steel"]
         }
         ,
         {
@@ -134,7 +134,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "10+",
-            skills: []
+            skills: ["Block", "Dauntless", "Steady Footing"]
         }
     ],
 
@@ -148,7 +148,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Horns", "Thick Skull"]
         }
         ,
         {
@@ -160,7 +160,7 @@ const teams = {
             ag: "3+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Arm Bar"]
         }
         ,
         {
@@ -172,7 +172,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Bone Head*", "Loner (4+)*", "Mighty Blow", "Thick Skull", "Throw Team-mate"]
         }
         ,
         {
@@ -184,7 +184,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Loner (4+)*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
         }
         ,
         {
@@ -196,7 +196,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Frenzy*", "Horns", "Loner (4+)*", "Mighty Blow", "Thick Skull", "Unchannelled Fury*"]
         }
     ],
 
@@ -222,7 +222,7 @@ const teams = {
             ag: "3+",
             pa: "5+",
             av: "8+",
-            skills: []
+            skills: ["Shadowing", "Stab"]
         }
         ,
         {
@@ -234,7 +234,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Block", "Iron Hard Skin", "Thick Skull"]
         }
         ,
         {
@@ -246,7 +246,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Brawler", "Breathe Fire", "Disturbing Presence*", "Thick Skull"]
         }
         ,
         {
@@ -258,7 +258,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Sprint", "Sure Feet", "Thick Skull", "Unsteady*"]
         }
         ,
         {
@@ -270,7 +270,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Frenzy*", "Horns", "Loner (4+)*", "Mighty Blow", "Thick Skull", "Unchannelled Fury*"]
         }
     ],
 
@@ -284,7 +284,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Animosity (all)*"]
         }
         ,
         {
@@ -296,7 +296,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Animosity (all)*", "Pass", "Sure Hands"]
         }
         ,
         {
@@ -308,7 +308,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "10+",
-            skills: []
+            skills: ["Animosity (all)*"]
         }
         ,
         {
@@ -320,7 +320,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Animosity (all)*"]
         }
         ,
         {
@@ -332,7 +332,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Animosity (all)*", "Dodge", "Right Stuff*", "Stunty*"]
         }
         ,
         {
@@ -344,7 +344,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Animosity (all)*"]
         }
         ,
         {
@@ -356,7 +356,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Frenzy*", "Horns", "Loner (4+)*", "Mighty Blow", "Thick Skull", "Unchannelled Fury*"]
         }
         ,
         {
@@ -368,7 +368,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Loner (4+)*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
         }
         ,
         {
@@ -380,7 +380,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Animal Savagery*", "Frenzy*", "Loner (4+)*", "Mighty Blow", "Prehensile Tail"]
         }
         ,
         {
@@ -392,7 +392,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Bone Head*", "Loner (3+)*", "Mighty Blow", "Thick Skull", "Throw Team-mate"]
         }
     ],
 
@@ -418,7 +418,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Dump-off", "Punt"]
         }
         ,
         {
@@ -430,7 +430,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Hit and Run", "Shadowing", "Stab"]
         }
         ,
         {
@@ -442,7 +442,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Block"]
         }
         ,
         {
@@ -454,7 +454,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Frenzy*", "Jump up"]
         }
     ],
 
@@ -468,7 +468,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Block", "Defensive", "Thick Skull"]
         }
         ,
         {
@@ -480,7 +480,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Sprint", "Sure Hands", "Thick Skull"]
         }
         ,
         {
@@ -492,7 +492,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "9+",
-            skills: []
+            skills: ["Block", "Dauntless", "Frenzy*", "Hatred (Troll)*", "Thick Skull"]
         }
         ,
         {
@@ -504,7 +504,7 @@ const teams = {
             ag: "4+",
             pa: "4+",
             av: "10+",
-            skills: []
+            skills: ["Block", "Diving Tackle", "Tackle", "Thick Skull"]
         }
         ,
         {
@@ -516,7 +516,7 @@ const teams = {
             ag: "5+",
             pa: "-",
             av: "11+",
-            skills: []
+            skills: ["Break Tackle", "Dirty Player", "Juggernaut", "Loner (4+)*", "Mighty Blow", "No Ball*", "Secret Weapon*", "Stand Firm"]
         }
     ],
 
@@ -530,7 +530,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Fumblerooski"]
         }
         ,
         {
@@ -542,7 +542,7 @@ const teams = {
             ag: "2+",
             pa: "2+",
             av: "8+",
-            skills: []
+            skills: ["Hail Mary Pass", "Pass"]
         }
         ,
         {
@@ -554,7 +554,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Catch", "Diving Catch", "Nerves of Steel"]
         }
         ,
         {
@@ -566,7 +566,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Block", "Sidestep"]
         }
     ],
 
@@ -580,7 +580,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "7+",
-            skills: []
+            skills: ["Jump up", "Right Stuff*", "Stunty*", "Wrestle"]
         }
         ,
         {
@@ -592,7 +592,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "7+",
-            skills: []
+            skills: ["Jump up", "Stunty*", "Trickster", "Wrestle"]
         }
         ,
         {
@@ -604,7 +604,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Guard", "Jump up", "Stunty*", "Wrestle"]
         }
         ,
         {
@@ -616,7 +616,7 @@ const teams = {
             ag: "2+",
             pa: "-",
             av: "6+",
-            skills: []
+            skills: ["Dodge", "My Ball*", "Sidestep", "Stunty*"]
         }
         ,
         {
@@ -628,7 +628,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "11+",
-            skills: []
+            skills: ["Loner (4+)*", "Mighty Blow", "Stand Firm", "Strong Arm", "Take Root*", "Thick Skull", "Throw Team-mate", "Timmm-ber!"]
         }
     ],
 
@@ -642,7 +642,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*"]
         }
         ,
         {
@@ -654,7 +654,7 @@ const teams = {
             ag: "3+",
             pa: "5+",
             av: "8+",
-            skills: []
+            skills: ["Dirty Player", "Disturbing Presence*", "Dodge", "Right Stuff*", "Stunty*", "Taunt"]
         }
         ,
         {
@@ -666,7 +666,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Bombardier", "Dodge", "Secret Weapon*", "Stunty*"]
         }
         ,
         {
@@ -678,7 +678,7 @@ const teams = {
             ag: "3+",
             pa: "6+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*", "Swoop"]
         }
         ,
         {
@@ -690,7 +690,7 @@ const teams = {
             ag: "3+",
             pa: "-",
             av: "8+",
-            skills: []
+            skills: ["Ball & Chain*", "No Ball*", "Secret Weapon*", "Stunty*"]
         }
         ,
         {
@@ -702,7 +702,7 @@ const teams = {
             ag: "3+",
             pa: "-",
             av: "8+",
-            skills: []
+            skills: ["Chainsaw*", "No Ball*", "Secret Weapon*", "Stunty*"]
         }
         ,
         {
@@ -714,7 +714,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Pogo", "Stunty*"]
         }
         ,
         {
@@ -726,7 +726,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
         }
     ],
 
@@ -740,7 +740,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "7+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*"]
         }
         ,
         {
@@ -752,7 +752,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Fend", "Stunty*"]
         }
         ,
         {
@@ -764,7 +764,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "7+",
-            skills: []
+            skills: ["Catch", "Dodge", "Right Stuff*", "Sprint", "Stunty*"]
         }
         ,
         {
@@ -776,7 +776,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "11+",
-            skills: []
+            skills: ["Loner (4+)*", "Mighty Blow", "Stand Firm", "Strong Arm", "Take Root*", "Thick Skull", "Throw Team-mate", "Timmm-ber!"]
         }
     ],
 
@@ -802,7 +802,7 @@ const teams = {
             ag: "2+",
             pa: "2+",
             av: "9+",
-            skills: []
+            skills: ["Cloud Burster", "Pass", "Safe Pass"]
         }
         ,
         {
@@ -814,7 +814,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Claws", "Wrestle"]
         }
         ,
         {
@@ -826,7 +826,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Block", "My Ball*", "Steady Footing"]
         }
     ],
 
@@ -852,7 +852,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Pass", "Sure Hands"]
         }
         ,
         {
@@ -864,7 +864,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Catch", "Dodge"]
         }
         ,
         {
@@ -876,7 +876,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Block", "Tackle"]
         }
         ,
         {
@@ -888,7 +888,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "7+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*"]
         }
         ,
         {
@@ -900,7 +900,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Bone Head*", "Loner (3+)*", "Mighty Blow", "Thick Skull", "Throw Team-mate"]
         }
     ],
 
@@ -914,7 +914,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Stand Firm", "Wrestle"]
         }
         ,
         {
@@ -926,7 +926,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Fend"]
         }
         ,
         {
@@ -938,7 +938,7 @@ const teams = {
             ag: "3+",
             pa: "2+",
             av: "9+",
-            skills: []
+            skills: ["Give and Go", "Pass", "Pro"]
         }
         ,
         {
@@ -950,7 +950,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Block", "Catch", "Pro"]
         }
         ,
         {
@@ -962,7 +962,7 @@ const teams = {
             ag: "4+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Bone Head*", "Loner (3+)*", "Mighty Blow", "Thick Skull", "Throw Team-mate"]
         }
     ],
 
@@ -976,7 +976,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Frenzy*"]
         }
         ,
         {
@@ -988,7 +988,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Frenzy*"]
         }
         ,
         {
@@ -1000,7 +1000,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Horns", "Juggernaut", "Jump up", "Thick Skull"]
         }
         ,
         {
@@ -1012,57 +1012,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
-        }
-    ],
-
-    "Tomb Kings": [
-        {
-            position: "Skeleton Linemen",
-            max: 16,
-            cost: 40000,
-            ma: 5,
-            st: 3,
-            ag: "4+",
-            pa: "8+",
-            av: "8+",
-            skills: ["Regeneration", "Thick Skull"]
-        }
-        ,
-        {
-            position: "Tomb Guardian",
-            max: 4,
-            cost: 115000,
-            ma: 4,
-            st: 5,
-            ag: "5+",
-            pa: "10+",
-            av: "10+",
-            skills: ["Brawler", "Decay*", "Regeneration"]
-        }
-        ,
-        {
-            position: "Tomb Kings Blitzer",
-            max: 2,
-            cost: 85000,
-            ma: 6,
-            st: 3,
-            ag: "4+",
-            pa: "9+",
-            av: "9+",
-            skills: ["Block", "Regeneration", "Thick Skull"]
-        }
-        ,
-        {
-            position: "Tomb Kings Thrower",
-            max: 2,
-            cost: 65000,
-            ma: 6,
-            st: 3,
-            ag: "4+",
-            pa: "9+",
-            av: "9+",
-            skills: ["Pass", "Regeneration", "Sure Hands", "Thick Skull"]
+            skills: ["Claws", "Frenzy*", "Loner (4+)*", "Mighty Blow", "Unchannelled Fury*"]
         }
     ],
 
@@ -1472,7 +1422,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Mighty Blow", "Taunt", "Thick Skull", "Unsteady*"]
         }
         ,
         {
@@ -1484,7 +1434,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*"]
         }
         ,
         {
@@ -1496,7 +1446,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "10+",
-            skills: []
+            skills: ["Block", "Break Tackle"]
         }
         ,
         {
@@ -1520,7 +1470,7 @@ const teams = {
             ag: "3+",
             pa: "3+",
             av: "9+",
-            skills: []
+            skills: ["Pass", "Sure Hands"]
         }
         ,
         {
@@ -1532,7 +1482,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Loner (4+)*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
         }
     ],
 
@@ -1608,7 +1558,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Stab"]
         }
         ,
         {
@@ -1620,7 +1570,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Block", "Strip Ball"]
         }
         ,
         {
@@ -1644,7 +1594,7 @@ const teams = {
             ag: "3+",
             pa: "2+",
             av: "8+",
-            skills: []
+            skills: ["Pass", "Sure Hands"]
         }
         ,
         {
@@ -1656,7 +1606,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Animal Savagery*", "Frenzy*", "Loner (4+)*", "Mighty Blow", "Prehensile Tail"]
         }
     ],
 
@@ -1670,7 +1620,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Diving Tackle", "Hit and Run", "Jump up", "Pogo"]
         }
         ,
         {
@@ -1682,7 +1632,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Diving Catch", "On the Ball", "Pogo", "Very Long Legs"]
         }
         ,
         {
@@ -1694,7 +1644,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Pogo"]
         }
         ,
         {
@@ -1706,7 +1656,7 @@ const teams = {
             ag: "5+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Bone Head*", "Loner (4+)*", "Mighty Blow", "Prehensile Tail", "Thick Skull"]
         }
     ],
 
@@ -1720,7 +1670,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "6+",
-            skills: []
+            skills: ["Dodge", "Pogo", "Right Stuff*", "Sidestep", "Stunty*"]
         }
         ,
         {
@@ -1732,7 +1682,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "6+",
-            skills: []
+            skills: ["Bombardier", "Dodge", "Right Stuff*", "Secret Weapon*", "Sidestep", "Stunty*", "Titchy*"]
         }
         ,
         {
@@ -1744,7 +1694,7 @@ const teams = {
             ag: "5+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Dirty Player", "Juggernaut", "Mighty Blow", "Really Stupid*", "Stand Firm"]
         }
         ,
         {
@@ -1756,7 +1706,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "6+",
-            skills: []
+            skills: ["Dodge", "Insignificant*", "Right Stuff*", "Sidestep", "Stunty*", "Titchy*"]
         }
         ,
         {
@@ -1768,7 +1718,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "6+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Sidestep", "Sprint", "Stunty*"]
         }
         ,
         {
@@ -1780,7 +1730,57 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
+        }
+    ],
+
+    "Tomb Kings": [
+        {
+            position: "Skeleton Linemen",
+            max: 16,
+            cost: 40000,
+            ma: 5,
+            st: 3,
+            ag: "4+",
+            pa: "8+",
+            av: "8+",
+            skills: ["Regeneration", "Thick Skull"]
+        }
+        ,
+        {
+            position: "Tomb Guardian",
+            max: 4,
+            cost: 115000,
+            ma: 4,
+            st: 5,
+            ag: "5+",
+            pa: "10+",
+            av: "10+",
+            skills: ["Brawler", "Decay*", "Regeneration"]
+        }
+        ,
+        {
+            position: "Tomb Kings Blitzer",
+            max: 2,
+            cost: 85000,
+            ma: 6,
+            st: 3,
+            ag: "4+",
+            pa: "9+",
+            av: "9+",
+            skills: ["Block", "Regeneration", "Thick Skull"]
+        }
+        ,
+        {
+            position: "Tomb Kings Thrower",
+            max: 2,
+            cost: 65000,
+            ma: 6,
+            st: 3,
+            ag: "4+",
+            pa: "9+",
+            av: "9+",
+            skills: ["Pass", "Regeneration", "Sure Hands", "Thick Skull"]
         }
     ],
 
@@ -1794,7 +1794,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Dodge", "Right Stuff*", "Stunty*"]
         }
         ,
         {
@@ -1806,7 +1806,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Animosity (Goblin)*", "Dodge", "Stab"]
         }
         ,
         {
@@ -1818,7 +1818,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Animosity (Goblin)*", "Block", "Strip Ball"]
         }
         ,
         {
@@ -1830,7 +1830,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "8+",
-            skills: []
+            skills: ["Animosity (Goblin)*"]
         }
         ,
         {
@@ -1842,7 +1842,7 @@ const teams = {
             ag: "3+",
             pa: "2+",
             av: "8+",
-            skills: []
+            skills: ["Animosity (Goblin)*", "Pass", "Sure Hands"]
         }
         ,
         {
@@ -1854,7 +1854,7 @@ const teams = {
             ag: "3+",
             pa: "4+",
             av: "6+",
-            skills: []
+            skills: ["Dodge", "Insignificant*", "Right Stuff*", "Sidestep", "Stunty*", "Titchy*"]
         }
         ,
         {
@@ -1866,7 +1866,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "9+",
-            skills: []
+            skills: ["Animal Savagery*", "Frenzy*", "Loner (4+)*", "Mighty Blow", "Prehensile Tail"]
         }
         ,
         {
@@ -1878,7 +1878,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "10+",
-            skills: []
+            skills: ["Always Hungry*", "Loner (4+)*", "Mighty Blow", "Projectile Vomit", "Really Stupid*", "Regeneration", "Throw Team-mate"]
         }
     ],
 
@@ -1904,7 +1904,7 @@ const teams = {
             ag: "2+",
             pa: "4+",
             av: "9+",
-            skills: []
+            skills: ["Bloodlust (2+)*", "Hypnotic Gaze", "Pass", "Regeneration"]
         }
         ,
         {
@@ -1916,7 +1916,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Bloodlust (2+)*", "Hypnotic Gaze", "Regeneration"]
         }
         ,
         {
@@ -1928,7 +1928,7 @@ const teams = {
             ag: "2+",
             pa: "2+",
             av: "9+",
-            skills: []
+            skills: ["Bloodlust (3+)*", "Hypnotic Gaze", "Juggernaut", "Regeneration"]
         }
         ,
         {
@@ -1940,7 +1940,7 @@ const teams = {
             ag: "4+",
             pa: "6+",
             av: "10+",
-            skills: []
+            skills: ["Bloodlust (3+)*", "Claws", "Frenzy*", "Loner (4+)*", "Regeneration"]
         }
     ],
 
@@ -1966,7 +1966,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Pass", "Safe Pair of Hands"]
         }
         ,
         {
@@ -1978,7 +1978,7 @@ const teams = {
             ag: "2+",
             pa: "3+",
             av: "8+",
-            skills: []
+            skills: ["Catch", "Dodge", "Sprint"]
         }
         ,
         {
@@ -1990,7 +1990,7 @@ const teams = {
             ag: "2+",
             pa: "2+",
             av: "8+",
-            skills: []
+            skills: ["Block", "Dodge", "Leap"]
         }
         ,
         {
@@ -2002,7 +2002,7 @@ const teams = {
             ag: "5+",
             pa: "5+",
             av: "11+",
-            skills: []
+            skills: ["Loner (4+)*", "Mighty Blow", "Stand Firm", "Strong Arm", "Take Root*", "Thick Skull", "Throw Team-mate", ""]
         }
     ]
 
