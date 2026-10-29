@@ -8,7 +8,7 @@ alert("PDF Start");
 
 doc.text(
     (teamName && teamName.value)
-    ? teamName.value || "Unbenanntes Team",
+    teamName?.value || "Unbenanntes Team",
     14,
     20
 );
