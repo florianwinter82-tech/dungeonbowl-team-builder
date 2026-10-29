@@ -1,0 +1,289 @@
+/* =========================
+   Allgemein
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0b0d12;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* =========================
+   Header
+========================= */
+
+header {
+    background: #8b0000;
+    border-bottom: 3px solid #d4af37;
+    padding: 16px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+/* =========================
+   Layout
+========================= */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.builder {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 20px;
+}
+
+/* =========================
+   Karten
+========================= */
+
+.card,
+.positions,
+.roster {
+    background: #1f2127;
+    border: 1px solid #2f343f;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.card label {
+    display: block;
+    color: #e0b937;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.card div,
+.card span {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+/* =========================
+   Auswahlfelder
+========================= */
+
+select {
+    width: 100%;
+    background: #11151d;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* =========================
+   Positionen
+========================= */
+
+.positions h2,
+.roster h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #e0b937;
+}
+
+.positionRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #353535;
+}
+
+.positionRow:last-child {
+    border-bottom: none;
+}
+
+.positionRow strong {
+    display: block;
+    margin-bottom: 2px;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+
+    background: #b10000;
+    color: white;
+
+    padding: 6px 12px;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #d30000;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* =========================
+   Re-Rolls
+========================= */
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter span {
+    min-width: 25px;
+    text-align: center;
+}
+
+/* =========================
+   Apotheker
+========================= */
+
+#apoButton.active {
+    background: #137a2a;
+}
+
+/* =========================
+   PDF-Button
+========================= */
+
+#exportPdfButton {
+    width: 100%;
+    font-weight: bold;
+}
+
+/* =========================
+   Tabelle
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #323232;
+}
+
+th {
+    color: #e0b937;
+}
+
+th,
+td {
+    border: 1px solid #454545;
+    padding: 10px;
+    text-align: center;
+}
+
+td small {
+    display: block;
+    color: #b5b5b5;
+    margin-top: 4px;
+}
+
+/* =========================
+   Fehlermeldung
+========================= */
+
+.error {
+    background: #911b1b;
+    border: 1px solid #d63b3b;
+    color: white;
+
+    border-radius: 8px;
+
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* =========================
+   Spieleranzahl
+========================= */
+
+#playerCount {
+    color: white;
+}
+
+/* =========================
+   Scrollbare Tabellen
+========================= */
+
+.roster {
+    overflow-x: auto;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 1000px) {
+
+    .builder {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .summary {
+        grid-template-columns: 1fr;
+    }
+
+    .positionRow {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+}
+.playerName {
+    width: 140px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background: #1a1a1a;
+    color: white;
+}
+.playerNumber {
+    width: 50px;
+    text-align: center;
+
+    background: #1a1a1a;
+    color: white;
+
+    border: 1px solid #555;
+    border-radius: 4px;
+
+    padding: 4px;
+}

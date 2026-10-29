@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DungeonBowl Team Builder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🏈 DungeonBowl Team Builder</h1>
+</header>
+
+<div class="container">
+
+    <div id="errorMessage" class="error hidden"></div>
+
+    <section class="summary">
+
+        <div class="card">
+            <label for="teamSelect">Team</label>
+            <select id="teamSelect"></select>
+        </div>
+
+        <div class="card">
+            <label>Budget</label>
+            <div id="budget">700.000</div>
+        </div>
+
+        <div class="card">
+            <label>Teamwert</label>
+            <div id="teamValue">0</div>
+        </div>
+
+        <div class="card">
+            <label>Restbudget</label>
+            <div id="remaining">700.000</div>
+        </div>
+
+        <div class="card">
+            <label>Spieler</label>
+            <div id="playerCount">0 / 11</div>
+        </div>
+
+        <div class="card">
+            <label>Re-Rolls</label>
+
+            <div class="counter">
+                <button type="button" id="rrMinus">-</button>
+                <span id="rrCount">0</span>
+                <button type="button" id="rrPlus">+</button>
+            </div>
+
+            <small>Kosten: 100.000</small>
+        </div>
+
+        <div class="card">
+            <label>Apotheker</label>
+
+            <button type="button" id="apoButton">
+                Nicht gekauft
+            </button>
+        </div>
+
+        <div class="card">
+            <label>Export</label>
+
+            <button
+                type="button"
+                id="exportPdfButton">
+                PDF erstellen
+            </button>
+        </div>
+        <div class="card">
+    <label>Prüfung</label>
+
+    <button
+        type="button"
+        id="validateRosterButton">
+        Roster prüfen
+    </button>
+</div>
+
+
+    </section>
+
+    <section class="builder">
+
+        <div class="positions">
+
+            <h2>Verfügbare Positionen</h2>
+
+            <div id="positionList"></div>
+
+        </div>
+
+        <div class="roster">
+
+            <h2>Aktueller Roster</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        
+                        <th>Nr</th>
+                        <th>Name</th>
+                        <th>Position / Skills</th>
+                        <th>MA</th>
+                        <th>ST</th>
+                        <th>AG</th>
+                        <th>PA</th>
+                        <th>AV</th>
+                        <th>Aktion</th>
+                    </tr>
+                </thead>
+
+                <tbody id="rosterBody"></tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- jsPDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- Teamdaten -->
+<script src="teams.js"></script>
+
+<!-- Anwendung -->
+<script src="app.js"></script>
+
+</body>
+</html>
