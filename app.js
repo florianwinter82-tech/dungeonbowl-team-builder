@@ -7,7 +7,6 @@ alert("PDF Start");
    doc.setFontSize(20);
 
 doc.text(
-    (teamName && teamName.value)
     teamName?.value || "Unbenanntes Team",
     14,
     20
