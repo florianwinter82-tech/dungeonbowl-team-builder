@@ -97,6 +97,9 @@ const teamName =
     document.getElementById(
         "teamName"
     );
+
+console.log("teamName:", teamName);
+
 const budget = 700000;
 const rrCost = 100000;
 const apothecaryCost = 50000;
