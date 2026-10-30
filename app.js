@@ -237,10 +237,18 @@ function loadTeam() {
 
     const team = teamSelect.value;
 
-    console.log("Team:", team);
-    console.log("Ligaobjekt:", teamLeagues);
+
 
     const leagueInfo = document.getElementById("leagueInfo");
+
+if (leagueInfo) {
+
+    const leagues = window.teamLeagues?.[team] || [];
+
+    leagueInfo.textContent =
+        "Liga: " + leagues.join(", ");
+
+}
 
 if (leagueInfo) {
 
