@@ -244,8 +244,8 @@ if (leagueInfo) {
 
     const leagues = window.teamLeagues?.[team] || [];
 
-leagueInfo.textContent =
-    JSON.stringify(window.teamLeagues);
+    leagueInfo.textContent =
+        "Team=[" + team + "] | Liga=[" + leagues.join(", ") + "]";
 
 }
 
