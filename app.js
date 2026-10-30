@@ -243,20 +243,9 @@ function loadTeam() {
 
 if (leagueInfo) {
 
-    const leagues = window.teamLeagues?.[team] || [];
-
     leagueInfo.textContent =
-        "Liga: " + leagues.join(", ");
+        "Team: " + team;
 
-}
-
-if (leagueInfo) {
-
-    const leagues = window.teamLeagues?.[team] || [];
-
-    leagueInfo.textContent =
-        "Team=" + team +
-        " | Liga=" + leagues.join(", ");
 }
     positionList.innerHTML = "";
 
