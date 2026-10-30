@@ -241,9 +241,15 @@ function loadTeam() {
 
     alert("leagueInfo gefunden: " + (leagueInfo !== null));
 
-    if (leagueInfo) {
-        leagueInfo.textContent = "Team: " + team;
-    }
+if (leagueInfo) {
+
+    const leagues = window.teamLeagues?.[team] || [];
+
+    leagueInfo.textContent =
+        "Liga: " + leagues.join(", ");
+
+}
+
 
     positionList.innerHTML = "";
 

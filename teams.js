@@ -2009,7 +2009,34 @@ const teams = {
 };
 window.teamLeagues = {
     "Amazon": ["Lustrian Superleague"],
-    "Black Orcs": ["Badlands Brawl"],
-    "Chaos Chosen": ["Chaos Clash"]
+    "Black Orc": ["Badlands Brawl"],
+    "Chaos Chosen": ["Chaos Clash"],
+    "Chaos Dwarfs": ["Badlands Brawl", "Chaos Clash"],
+    "Chaos Renegades": ["Chaos Clash"],
+    "Dark Elves": ["Elven Kingdoms League"],
+    "Dwarfs": ["Old World Classic", "Worlds Edge Superleague"],
+    "Elven Union": ["Elven Kingdoms League"],
+    "Gnomes": ["Halfling Thimble Cup", "Woodland League"],
+    "Goblins": ["Badlands Brawl", "Underworld Challenge"],
+    "Halflings": ["Halfling Thimble Cup", "Woodland League"],
+    "High Elves": ["Elven Kingdoms League"],
+    "Humans": ["Old World Classic"],
+    "Imperial Nobility": ["Old World Classic"],
+    "Khorne": ["Chaos Clash"],
+    "Lizardmen": ["Lustrian Superleague"],
+    "Necromantic Horror": ["Sylvanian Spotlight"],
+    "Norse": ["Chaos Clash", "Old World Classic"],
+    "Nurgle": ["Chaos Clash"],
+    "Ogres": ["Badlands Brawl", "Old World Classic"],
+    "Old World Alliance": ["Old World Classic"],
+    "Orcs": ["Badlands Brawl"],
+    "Shambling Undead": ["Sylvanian Spotlight"],
+    "Skaven": ["Underworld Challenge"],
+    "Slann": ["Lustrian Superleague"],
+    "Snotlings": ["Underworld Challenge"],
+    "Tomb Kings": ["Sylvanian Spotlight"],
+    "Underworld Denizens": ["Underworld Challenge"],
+    "Vampires": ["Sylvanian Spotlight"],
+    "Wood Elves": ["Elven Kingdoms League", "Woodland League"]
 };
 
