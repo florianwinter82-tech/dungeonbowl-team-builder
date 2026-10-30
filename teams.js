@@ -2010,6 +2010,5 @@ const teams = {
 const teamLeagues = {
     "Amazon": ["Lustrian Superleague"],
     "Black Orcs": ["Badlands Brawl"],
-    "Chaos Chosen": ["Chaos Clash"],
-    // ...
+    "Chaos Chosen": ["Chaos Clash"]
 };
