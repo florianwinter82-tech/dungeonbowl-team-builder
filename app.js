@@ -241,7 +241,8 @@ function loadTeam() {
     const leagueInfo = document.getElementById("leagueInfo");
 
 if (leagueInfo) {
-    const leagues = teamLeagues[team] || [];
+const leagues = window.teamLeagues[team] || [];
+
 
     leagueInfo.textContent =
         "Team = " + team +

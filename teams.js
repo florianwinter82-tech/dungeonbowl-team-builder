@@ -2007,7 +2007,7 @@ const teams = {
     ]
 
 };
-const teamLeagues = {
+window.teamLeagues = {
     "Amazon": ["Lustrian Superleague"],
     "Black Orcs": ["Badlands Brawl"],
     "Chaos Chosen": ["Chaos Clash"]
