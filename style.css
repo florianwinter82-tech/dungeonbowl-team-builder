@@ -303,3 +303,9 @@ td small {
 
     padding: 4px;
 }
+#leagueInfo {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+}

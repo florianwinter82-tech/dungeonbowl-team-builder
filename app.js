@@ -235,6 +235,11 @@ function loadTeam() {
 
     const team = teamSelect.value;
 
+    const leagues = teamLeagues[team] || [];
+
+    document.getElementById("leagueInfo").textContent =
+        "Liga: " + leagues.join(", ");
+
     positionList.innerHTML = "";
 
     if (!team || !teams[team]) {
@@ -361,6 +366,7 @@ if (count >= player.max) {
 if (!checkGroupRestriction(player)) {
     return;
 }
+/*
 // Maximal 4 Nicht-Linemen
 
 if (player.max < 16) {
@@ -378,7 +384,7 @@ if (player.max < 16) {
     }
 
 }
-
+*/
     if (
         calculateTeamValue() + player.cost >
         budget
