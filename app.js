@@ -244,7 +244,7 @@ if (leagueInfo) {
 
     const leagues = window.teamLeagues?.[team] || [];
 
-    leagueInfo.textContent = leagues.join(", ");
+   leagueInfo.textContent = "123456";
 
 }
 
