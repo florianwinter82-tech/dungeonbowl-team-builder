@@ -243,11 +243,13 @@ function loadTeam() {
     const leagueInfo = document.getElementById("leagueInfo");
 
 if (leagueInfo) {
+
+    const leagues = window.teamLeagues?.[team] || [];
+
     leagueInfo.textContent =
         "Team=" + team +
-        " | teamLeagues=" + typeof teamLeagues;
+        " | Liga=" + leagues.join(", ");
 }
-
     positionList.innerHTML = "";
 
     if (!team || !teams[team]) {

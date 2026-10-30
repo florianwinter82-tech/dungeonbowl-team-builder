@@ -2012,3 +2012,4 @@ window.teamLeagues = {
     "Black Orcs": ["Badlands Brawl"],
     "Chaos Chosen": ["Chaos Clash"]
 };
+
