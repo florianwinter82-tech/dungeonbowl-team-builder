@@ -237,16 +237,14 @@ function loadTeam() {
 
     const team = teamSelect.value;
 
-
-
     const leagueInfo = document.getElementById("leagueInfo");
 
-if (leagueInfo) {
+    alert("leagueInfo gefunden: " + (leagueInfo !== null));
 
-    leagueInfo.textContent =
-        "Team: " + team;
+    if (leagueInfo) {
+        leagueInfo.textContent = "Team: " + team;
+    }
 
-}
     positionList.innerHTML = "";
 
     if (!team || !teams[team]) {
