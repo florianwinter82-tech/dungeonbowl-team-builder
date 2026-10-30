@@ -240,8 +240,12 @@ function loadTeam() {
 
     const leagueInfo = document.getElementById("leagueInfo");
 
-    if (leagueInfo) {
-    leagueInfo.textContent = "TEST";
+if (leagueInfo) {
+    const leagues = teamLeagues[team] || [];
+
+    leagueInfo.textContent =
+        "Team = " + team +
+        " | Liga = " + leagues.join(", ");
 }
 
     positionList.innerHTML = "";
