@@ -90,7 +90,7 @@ const teams = {
 
     "Bretonian": [
         {
-            position: "Bretonnian Squire",
+            position: "Bretonian Squire",
             max: 16,
             cost: 50000,
             ma: 6,
@@ -102,7 +102,7 @@ const teams = {
         }
         ,
         {
-            position: "Bretonnian Knight Thrower",
+            position: "Bretonian Knight Thrower",
             max: 2,
             cost: 80000,
             ma: 6,
@@ -114,7 +114,7 @@ const teams = {
         }
         ,
         {
-            position: "Bretonnian Knight Catcher",
+            position: "Bretonian Knight Catcher",
             max: 2,
             cost: 85000,
             ma: 7,
