@@ -241,12 +241,9 @@ function loadTeam() {
     const leagueInfo = document.getElementById("leagueInfo");
 
 if (leagueInfo) {
-const leagues = window.teamLeagues[team] || [];
-
-
     leagueInfo.textContent =
-        "Team = " + team +
-        " | Liga = " + leagues.join(", ");
+        "Team=" + team +
+        " | Existiert=" + (team in teamLeagues);
 }
 
     positionList.innerHTML = "";
