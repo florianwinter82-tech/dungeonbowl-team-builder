@@ -241,9 +241,8 @@ function loadTeam() {
     const leagueInfo = document.getElementById("leagueInfo");
 
     if (leagueInfo) {
-        const leagues = teamLeagues[team] || [];
-        leagueInfo.textContent = "Liga: " + leagues.join(", ");
-    }
+    leagueInfo.textContent = "TEST";
+}
 
     positionList.innerHTML = "";
 
