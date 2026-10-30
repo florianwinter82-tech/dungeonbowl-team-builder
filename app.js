@@ -243,7 +243,12 @@ throw new Error("LOADTEAM TEST");
 
 if (leagueInfo) {
 
-    leagueInfo.textContent = "TEST";
+    const leagues = window.teamLeagues?.[team] || [];
+
+    leagueInfo.textContent =
+        "Team=" + team +
+        " | Anzahl=" + leagues.length +
+        " | " + leagues.join(", ");
 
 }
 
