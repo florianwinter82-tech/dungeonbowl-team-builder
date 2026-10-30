@@ -21,6 +21,14 @@ doc.text(
     35
 );
 
+const leagues = window.teamLeagues?.[teamSelect.value] || [];
+
+doc.text(
+    `Liga: ${leagues.join(", ")}`,
+    14,
+    42
+);
+
 doc.text(
     `Teamwert: ${formatMoney(calculateTeamValue())}`,
     90,
@@ -62,7 +70,7 @@ doc.setFontSize(12);
 
     doc.autoTable({
 
-        startY: 55,
+        startY: 60,
 
         head: [[
             "Nr",
