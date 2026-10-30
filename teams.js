@@ -88,7 +88,7 @@ const teams = {
         }
     ],
 
-    "Bretonnian": [
+    "Bretonian": [
         {
             position: "Bretonnian Squire",
             max: 16,
