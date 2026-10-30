@@ -1,3 +1,5 @@
+alert("APP JS NEU GELADEN");
+
 function exportRosterPdf() {
 
     const { jsPDF } = window.jspdf;
