@@ -2010,6 +2010,7 @@ const teams = {
 window.teamLeagues = {
     "Amazon": ["Lustrian Superleague"],
     "Black Orc": ["Badlands Brawl"],
+    "Bretonian": ["Old World Classic"],
     "Chaos Chosen": ["Chaos Clash"],
     "Chaos Dwarf": ["Badlands Brawl", "Chaos Clash"],
     "Chaos Renegades": ["Chaos Clash"],
