@@ -1,4 +1,3 @@
-alert("APP JS NEU GELADEN");
 
 function exportRosterPdf() {
 
@@ -244,7 +243,7 @@ if (leagueInfo) {
 
     const leagues = window.teamLeagues?.[team] || [];
 
-   leagueInfo.textContent = "123456";
+  leagueInfo.textContent = leagues.join(", ");
 
 }
 
