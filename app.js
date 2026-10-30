@@ -92,7 +92,7 @@ doc.setFontSize(12);
 
 
 console.log("APP START");
-alert("app.js geladen");
+
 const teamName =
     document.getElementById(
         "teamName"
