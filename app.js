@@ -234,7 +234,7 @@ function handleTeamChange() {
 }
 
 function loadTeam() {
-
+throw new Error("LOADTEAM TEST");
     const team = teamSelect.value;
 
     const leagueInfo = document.getElementById("leagueInfo");
