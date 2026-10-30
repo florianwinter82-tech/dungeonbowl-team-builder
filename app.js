@@ -245,7 +245,7 @@ function loadTeam() {
 if (leagueInfo) {
     leagueInfo.textContent =
         "Team=" + team +
-        " | Existiert=" + (team in teamLeagues);
+        " | teamLeagues=" + typeof teamLeagues;
 }
 
     positionList.innerHTML = "";
