@@ -234,21 +234,18 @@ function handleTeamChange() {
 }
 
 function loadTeam() {
-throw new Error("LOADTEAM TEST");
+
     const team = teamSelect.value;
 
     const leagueInfo = document.getElementById("leagueInfo");
 
-    alert("leagueInfo gefunden: " + (leagueInfo !== null));
 
 if (leagueInfo) {
 
     const leagues = window.teamLeagues?.[team] || [];
 
-    leagueInfo.textContent =
-        "Team=" + team +
-        " | Anzahl=" + leagues.length +
-        " | " + leagues.join(", ");
+     leagueInfo.textContent =
+            "Liga: " + leagues.join(", ");
 
 }
 
