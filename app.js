@@ -38,13 +38,13 @@ doc.text(
 doc.text(
     `Re-Rolls: ${rerolls}`,
     14,
-    43
+    52
 );
 
 doc.text(
     `Apotheker: ${apothecary ? "Ja" : "Nein"}`,
     90,
-    43
+    52
 );
 
 doc.setFontSize(12);
@@ -70,7 +70,7 @@ doc.setFontSize(12);
 
     doc.autoTable({
 
-        startY: 60,
+        startY: 65,
 
         head: [[
             "Nr",
