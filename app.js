@@ -438,16 +438,30 @@ function removeReRoll() {
 
 function toggleApothecary() {
 
+    const noApothecaryTeams = [
+        "Nurgle",
+        "Shambling Undead",
+        "Necromantic Horror",
+        "Tomb Kings"
+    ];
+
+    const currentTeamName =
+        teamSelect.options[teamSelect.selectedIndex].text;
+
+    if (noApothecaryTeams.includes(currentTeamName)) {
+        showError(
+            "Dieses Team darf keinen Apotheker einsetzen."
+        );
+        return;
+    }
+
     if (
         !apothecary &&
-        calculateTeamValue() + apothecaryCost >
-        budget
+        calculateTeamValue() + apothecaryCost > budget
     ) {
-
         showError(
             "Nicht genügend Budget für einen Apotheker."
         );
-
         return;
     }
 
