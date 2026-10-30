@@ -235,10 +235,15 @@ function loadTeam() {
 
     const team = teamSelect.value;
 
-    const leagues = teamLeagues[team] || [];
+    console.log("Team:", team);
+    console.log("Ligaobjekt:", teamLeagues);
 
-    document.getElementById("leagueInfo").textContent =
-        "Liga: " + leagues.join(", ");
+    const leagueInfo = document.getElementById("leagueInfo");
+
+    if (leagueInfo) {
+        const leagues = teamLeagues[team] || [];
+        leagueInfo.textContent = "Liga: " + leagues.join(", ");
+    }
 
     positionList.innerHTML = "";
 
