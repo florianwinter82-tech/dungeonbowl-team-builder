@@ -154,9 +154,29 @@ let currentRoster = [];
 let rerolls = 0;
 let apothecary = false;
 
+let assistantCoaches = 0;
+let cheerleaders = 0;
+
 const teamSelect = document.getElementById("teamSelect");
 const positionList = document.getElementById("positionList");
 const rosterBody = document.getElementById("rosterBody");
+const coachMinus =
+    document.getElementById("coachMinus");
+
+const coachPlus =
+    document.getElementById("coachPlus");
+
+const coachCount =
+    document.getElementById("coachCount");
+
+const cheerMinus =
+    document.getElementById("cheerMinus");
+
+const cheerPlus =
+    document.getElementById("cheerPlus");
+
+const cheerCount =
+    document.getElementById("cheerCount");
 
 const exportPdfButton =
     document.getElementById(
@@ -208,6 +228,25 @@ function init() {
 
     rrPlus.addEventListener("click", addReRoll);
     rrMinus.addEventListener("click", removeReRoll);
+coachPlus.addEventListener(
+    "click",
+    addCoach
+);
+
+coachMinus.addEventListener(
+    "click",
+    removeCoach
+);
+
+cheerPlus.addEventListener(
+    "click",
+    addCheerleader
+);
+
+cheerMinus.addEventListener(
+    "click",
+    removeCheerleader
+);
 
     apoButton.addEventListener("click", toggleApothecary);
     
@@ -456,6 +495,57 @@ function removeReRoll() {
         renderRoster();
     }
 }
+function addCoach() {
+
+    if (assistantCoaches < 3) {
+
+        assistantCoaches++;
+
+        coachCount.textContent =
+            assistantCoaches;
+
+        renderRoster();
+    }
+}
+
+function removeCoach() {
+
+    if (assistantCoaches > 0) {
+
+        assistantCoaches--;
+
+        coachCount.textContent =
+            assistantCoaches;
+
+        renderRoster();
+    }
+}
+
+function addCheerleader() {
+
+    if (cheerleaders < 6) {
+
+        cheerleaders++;
+
+        cheerCount.textContent =
+            cheerleaders;
+
+        renderRoster();
+    }
+}
+
+function removeCheerleader() {
+
+    if (cheerleaders > 0) {
+
+        cheerleaders--;
+
+        cheerCount.textContent =
+            cheerleaders;
+
+        renderRoster();
+    }
+}
 
 function toggleApothecary() {
 
@@ -557,7 +647,11 @@ function calculateTeamValue() {
     if (apothecary) {
 
         value += apothecaryCost;
+
     }
+
+value += assistantCoaches * 20000;
+value += cheerleaders * 20000;
 
     return value;
 }

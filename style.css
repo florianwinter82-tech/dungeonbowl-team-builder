@@ -309,3 +309,22 @@ td small {
     font-weight: bold;
     color: #444;
 }
+.inducement-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inducement-label {
+    font-weight: bold;
+}
+
+.cost {
+    color: #f5c842;
+    margin-left: 4px;
+}
+.inducement-card {
+    grid-column: span 2;
+    min-width: 320px;
+}
