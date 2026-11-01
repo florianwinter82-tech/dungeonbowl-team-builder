@@ -93,7 +93,7 @@ doc.setFontSize(12);
     });
 
     doc.save(
-    `${teamSelect.value}_Death-Bowl-Roster.pdf`
+    `${teamName.value || teamSelect.value}_Death-Bowl-Roster.pdf`
 );
 
 }
